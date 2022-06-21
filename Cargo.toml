@@ -1,0 +1,12 @@
+[package]
+name = "rust_book_exercises"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+paste = "1.0"
+add_one = { path = "./src/more_about_cargo_and_crates_io_14/add/add_one" }
+add_two = { path = "./src/more_about_cargo_and_crates_io_14/add/add_two" }
+threadpool = "1.8"
